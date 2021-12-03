@@ -21,6 +21,7 @@ fn main() {
         // When stream goes out of scope and is dropped at the end
         // of the loop, the connection is closed as part of the drop
         // implementation.
+        println!("Shutting down.");
     }
 }
 
